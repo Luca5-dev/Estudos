@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jojo's Bizarre Adventure</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #7e5a9b 0%, #e09 100%);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: rgba(30, 30, 60, 0.9);
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            color: #ffe175;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem 2rem;
+            background: rgba(40, 30, 60, 0.92);
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #ffe175;
+            margin-top: 1.5rem;
+        }
+        .characters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .character-card {
+            background: rgba(90, 30, 125, 0.85);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+            width: 200px;
+            padding: 1rem;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .character-card:hover {
+            transform: scale(1.05);
+        }
+        .character-card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+        }
+        .character-card h3 {
+            margin: 0.5rem 0 0.2rem 0;
+            color: #ffe175;
+        }
+        .character-card p {
+            font-size: 0.97rem;
+            color: #fff;
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 1rem 0.5rem;
+            }
+            .characters {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .character-card {
+                width: 100%;
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: rgba(30, 30, 60, 0.9);
+            color: #ffe175;
+            margin-top: 2rem;
+        }
+        a {
+            color: #ffe175;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jojo's Bizarre Adventure</h1>
+        <p>Uma jornada cheia de ação, poderes e personagens inesquecíveis!</p>
+    </header>
+    <div class="container">
+        <h2>Sobre o Anime</h2>
+        <p>
+            <strong>Jojo's Bizarre Adventure</strong> é uma série de mangá e anime criada por Hirohiko Araki, famosa por suas batalhas criativas, poses marcantes e personagens excêntricos. Cada parte da história acompanha um membro diferente da família Joestar em aventuras recheadas de mistério, ação e elementos sobrenaturais.
+        </p>
+        <h2>Protagonistas Marcantes</h2>
+        <div class="characters">
+            <div class="character-card">
+                <img src="https://images.unsplash.com/photo-1594305452216-16210ca0cbb4?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jonathan Joestar">
+                <h3>Jonathan Joestar</h3>
+                <p>O primeiro Jojo. Um verdadeiro cavalheiro que enfrenta Dio Brando na Parte 1: Phantom Blood.</p>
+            </div>
+            <div class="character-card">
+                <img src="jotaro.png" alt="Jotaro Kujo">
+                <h3>Jotaro Kujo</h3>
+                <p>O neto de Joseph. Protagonista da Parte 3: Stardust Crusaders, conhecido pelo Stand Star Platinum.</p>
+            </div>
+            <div class="character-card">
+                <img src="https://images.unsplash.com/photo-1559942144-92147a3adb0f?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Giorno Giovanna">
+                <h3>Giorno Giovanna</h3>
+                <p>Filho de Dio com sangue Joestar. Protagonista da Parte 5: Golden Wind, sonha em ser um "Gang-Star".</p>
+            </div>
+        </div>
+        <h2>Curiosidades</h2>
+        <ul>
+            <li>Muitas poses dos personagens foram inspiradas em revistas de moda.</li>
+            <li>O nome de vários personagens e Stands são referências a músicas e bandas famosas.</li>
+            <li>O anime é conhecido por suas frases de efeito como "Yare Yare Daze" e "ZA WARUDO!".</li>
+        </ul>
+        <h2>Links Úteis</h2>
+        <ul>
+            <li><a href="https://jojowiki.com" target="_blank">Wiki Jojo</a></li>
+            <li><a href="https://www.crunchyroll.com/pt-br/series/GY3VKX1MR/jojos-bizarre-adventure" target="_blank">Assista no Crunchyroll</a></li>
+        </ul>
+    </div>
+    <footer>
+        Página criada por fã para fins educativos | © 2025
+    </footer>
+</body>
+</html>
